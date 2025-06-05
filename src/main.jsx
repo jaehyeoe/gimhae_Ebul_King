@@ -6,11 +6,15 @@ import About from "./pages/About.jsx";  // 필요하면 페이지 생성
 // import Contact from "./pages/Contact.jsx"; // Contact 페이지 만들면 import
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
       {/* <Route path="/contact" element={<Contact />} />  Contact 페이지 만들면 활성화 */}
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
+
+
+
+
